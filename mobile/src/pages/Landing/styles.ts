@@ -13,13 +13,6 @@ const styles = StyleSheet.create({
     backgroundColor:"#aaa",
   },
 
-  logo:{
-    flex:1,
-    marginTop:50,
-    width:"100%",
-    resizeMode: 'contain',    
-  },
-
   logoText:{
     color:"#E5E5E5",
   },

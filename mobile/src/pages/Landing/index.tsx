@@ -6,9 +6,10 @@ import { RectButton, TouchableOpacity } from 'react-native-gesture-handler';
 import { useAuth } from '../../hooks/auth';
 
 import deltaLogoBranco from '../../assets/Images/deltaLogoBranco.png';
+import mascoteImg from '../../assets/Images/mascote-delta-world.png';
 
 import styles from './styles'
-import { LoginContainer, LoginButton, LoginButtonText, HelloContainer, HelloText, Avatar } from './styled';
+import { LoginContainer, LoginButton, LoginButtonText, HelloContainer, HelloText, Avatar, MascoteImage, LogoContainer, LogoImage } from './styled';
 
 export default function Landing(){
   const {navigate} = useNavigation();
@@ -81,8 +82,11 @@ export default function Landing(){
         </HelloContainer>
       }
 
-      <Image source={deltaLogoBranco} style={styles.logo}></Image>
-
+      <LogoContainer>
+        <MascoteImage source={mascoteImg}></MascoteImage>
+        <LogoImage source={deltaLogoBranco}></LogoImage>
+      </LogoContainer>
+      
       <View style={styles.footer}>
         <View style={styles.footerContent}>        
           <Text style={styles.textWelcome}>

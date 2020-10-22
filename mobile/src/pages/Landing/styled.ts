@@ -21,7 +21,6 @@ export const LoginButton = styled(RectButton)`
 export const LoginButtonText = styled.Text`
   color: #E5E5E5;
   font-family: "Poppins_400Regular";
-
 `;
 
 export const HelloContainer  = styled.View`
@@ -41,4 +40,27 @@ export const Avatar = styled.Image`
   width: 50px;
   left: 230px;
   border-radius: 25px;
+`;
+
+export const MascoteImage = styled.Image`
+  position: absolute;
+  top: -15%;
+  height: 105%;
+  width: 150%;
+`;
+
+export const LogoImage = styled.Image`
+  position: relative;
+  margin-top: 50%;
+  height: 70%;
+  width: 100%;
+`;
+
+export const LogoContainer = styled.View`
+  /* background-color: rgba(0, 255, 255, 0.1); */
+  position: relative;
+  height: 350px;
+  top: 75px;
+  justify-content: center;
+  align-items: center;
 `;
