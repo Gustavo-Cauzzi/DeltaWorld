@@ -42,18 +42,11 @@ export const Avatar = styled.Image`
   border-radius: 25px;
 `;
 
-export const MascoteImage = styled.Image`
-  position: absolute;
-  top: -15%;
-  height: 105%;
-  width: 150%;
-`;
-
 export const LogoImage = styled.Image`
   position: relative;
-  margin-top: 50%;
-  height: 70%;
-  width: 100%;
+  height: 75%;
+  width: 95%;
+  margin-left: -40px;
 `;
 
 export const LogoContainer = styled.View`
@@ -61,6 +54,8 @@ export const LogoContainer = styled.View`
   position: relative;
   height: 350px;
   top: 75px;
+  margin-left: -40px;
+  margin-right: -40px;
   justify-content: center;
   align-items: center;
 `;
