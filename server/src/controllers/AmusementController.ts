@@ -45,7 +45,7 @@ export default class AmusementController{
 
     const trx = await db.transaction();
     try{  
-      await trx('amusements').delete(id);
+      await trx('amusements').where("id", id).del();
 
       await trx.commit();
 

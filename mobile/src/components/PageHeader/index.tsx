@@ -27,7 +27,7 @@ const PageHeader : React.FC<PageHeaderProps> = ({title, headerRight, children}) 
   <View style={styles.container}> 
     <View style={styles.topBar}>
       <BorderlessButton onPress={handleGoBack}>
-        <Image source={backIcon} ></Image>
+        <Image source={backIcon} style={{tintColor: "#fff"}}></Image>
       </BorderlessButton>
       {user 
         ?
